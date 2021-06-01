@@ -1,0 +1,21 @@
+.footer{
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  bottom: 0;
+  background-color: #20232a;
+}
+
+.footer__info,
+.footer__email{
+  text-align: center;
+}
+
+.footer__info--github{
+  text-decoration: none;
+  color: #61dafb;
+}

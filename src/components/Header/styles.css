@@ -1,0 +1,29 @@
+.header,
+.header__nav{
+  display: flex;
+  align-items: center;
+}
+
+.header{
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  width: 100vw;
+  background-color: #20232a;
+}
+
+.header__logo,
+.header__link{
+  margin: 1rem;
+}
+
+.header__nav{
+  list-style: none;
+  justify-content: space-around;
+}
+
+.header__link{
+  text-decoration: none;
+  color: #61dafb;
+}
