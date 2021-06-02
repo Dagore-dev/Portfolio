@@ -1,12 +1,12 @@
 .footer{
-  width: 100vw;
-  height: 7vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: sticky;
-  bottom: 0;
+  bottom: -1px;
+  height: 7vh;
+  min-width: 95vw;
   background-color: #20232a;
 }
 

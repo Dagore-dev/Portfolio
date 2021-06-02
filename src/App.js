@@ -2,16 +2,21 @@ import {
   BrowserRouter as Router,
   Switch,
   Route
-} from 'react-router-dom'
+} from 'react-router-dom';
 
-import About from 'views/About'
-import Contact from 'views/Contact'
-import NotFound from 'views/NotFound'
-import Work from 'views/Work'
+import Footer from 'components/Footer';
+import Header from 'components/Header';
+import About from 'views/About';
+import Contact from 'views/Contact';
+import NotFound from 'views/NotFound';
+import Work from 'views/Work';
 
 export default function App() {
   return ( 
   <Router>
+    
+    <Header/>
+    
     <Switch>
 
       <Route exact path='/about'>
@@ -34,7 +39,10 @@ export default function App() {
         {NotFound}
       </Route>
 
+
     </Switch>
+    
+    <Footer/>
   </Router>
   )
 }
