@@ -1,0 +1,17 @@
+.knowledges{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60vw;
+  height: 10vh;
+}
+
+.knowledges__icon{
+  width: 40px;
+  height: 40px;
+  margin: .5rem;
+}
+
+.knowledges__icon--html5{
+  color: #61dafb;
+}

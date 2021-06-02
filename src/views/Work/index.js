@@ -1,11 +1,14 @@
-
+import Gallery from "components/Gallery";
+import Intro from "components/Intro";
 
 export default function Work () {
 
     return(
       <main className='main'>
 
-        <h1>Mi trabajo</h1>
+        <Intro/>
+
+        <Gallery/>
 
       </main>
     )
