@@ -3,7 +3,7 @@ import 'components/Intro/styles.css';
 import html5 from 'assets/images/html-5-icon.svg';
 import css3 from 'assets/images/css-3-icon.svg';
 import js from 'assets/images/javascript-icon.svg';
-import react from 'assets/images/react-icon.svg';
+import react from 'assets/images/react-logo.svg';
 import git from 'assets/images/git-icon.svg';
 import github from 'assets/images/github-icon.svg';
 

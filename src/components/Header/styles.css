@@ -9,14 +9,14 @@
   position: sticky;
   top: -1px;
   height: 7vh;
-  min-width: 95vw;
+  min-width: 100vw;
   background-color: #20232a;
 }
 
 .header__logo{
   margin: 0 1rem;
-  width: 50px;
-  height: 50px;
+  width: 5vh;
+  height: 5vh;
 }
 
 .header__nav{
@@ -25,7 +25,18 @@
 }
 
 .header__link{
-  min-width: 75px;
+  text-align: center;
   text-decoration: none;
+  margin: 0 .5rem;
+  min-width: 75px;
+  color: #41b8c9;
+}
+
+.header__link:hover{
   color: #61dafb;
+}
+
+.header__link--active{
+  color: #61dafb;
+  font-weight: 600;
 }
