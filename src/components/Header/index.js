@@ -14,7 +14,6 @@ export default function Header () {
         <ul className='header__nav'>
           <NavLink exact activeClassName='header__link--active' className='header__link header__nav--work' to='/'><li>Principal</li></NavLink>
           <NavLink activeClassName='header__link--active' className='header__link header__nav--about' to='/about'><li>Sobre mi</li></NavLink>
-          <NavLink activeClassName='header__link--active' className='header__link header__nav--contact' to='/contact'><li>Contacto</li></NavLink>
         </ul>
       </nav>
     </header>

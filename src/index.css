@@ -27,9 +27,4 @@ code {
   margin: .5rem;
   padding: .5rem;
   max-width: 90vw;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }

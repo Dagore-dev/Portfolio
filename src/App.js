@@ -7,11 +7,11 @@ import {
 import Footer from 'components/Footer';
 import Header from 'components/Header';
 import About from 'views/About';
-import Contact from 'views/Contact';
 import NotFound from 'views/NotFound';
 import Work from 'views/Work';
 
 export default function App() {
+  
   return ( 
   <Router>
     
@@ -19,26 +19,21 @@ export default function App() {
     
     <Switch>
 
-      <Route exact path='/about'>
-        {About}
-      </Route>
+        <Route exact path='/about'>
+          {About}
+        </Route>
 
-      <Route exact path='/contact'>
-        {Contact}
-      </Route>
+        <Route exact path='/detail/:proyect'>
+          {About}
+        </Route>
 
-      <Route exact path='/detail/:proyect'>
-        {About}
-      </Route>
+        <Route exact path='/'>
+          {Work}
+        </Route>
 
-      <Route exact path='/'>
-        {Work}
-      </Route>
-
-      <Route>
-        {NotFound}
-      </Route>
-
+        <Route>
+          {NotFound}
+        </Route>
 
     </Switch>
     
